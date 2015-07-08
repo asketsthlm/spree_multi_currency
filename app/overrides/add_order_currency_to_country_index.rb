@@ -1,7 +1,7 @@
 Deface::Override.new(
   :virtual_path => 'spree/admin/countries/index',
   :name => 'countries_index_currency_header',
-  :insert_after => "erb[loud]:contains('Spree.t(:iso_name)')",
+  :insert_after => "erb[loud]:contains('Spree.t(:states_required)')",
   :text => "<th><%= 'Order Currency' %></th>"
 )
 
